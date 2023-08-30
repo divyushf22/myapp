@@ -12,8 +12,8 @@ app.use(cors());
 app.use('/customers', customersRoute)
 
 // app.use('/image', imageuploadRoute)
-app.listen('8000', ()=>{
-    console.log("Listening on port 8000");
+app.listen('80', ()=>{
+    console.log("Listening on port 80");
 })
 
 
